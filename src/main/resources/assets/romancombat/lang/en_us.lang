@@ -1,0 +1,10 @@
+# items
+item.romancombat.gladius.name=Gladius
+item.romancombat.steel_ingot.name=Steel Ingot
+item.romancombat.blunt_hammer.name=Blunt Hammer
+
+# block tiles
+tile.romancombat.roman_cube.name=Roman Cube
+tile.romancombat.steel_block.name=Steel Block
+
+

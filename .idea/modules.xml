@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BeefCore/src/main/BeefCore.iml" filepath="$PROJECT_DIR$/../BeefCore/src/main/BeefCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mcmod.iml" filepath="$PROJECT_DIR$/mcmod.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/mcmod/mcmod.iml" filepath="$USER_HOME$/Documents/mcmod/mcmod.iml" />
+    </modules>
+  </component>
+</project>

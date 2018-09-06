@@ -1,0 +1,16 @@
+[
+{
+  "modid": "romancombat",
+  "name": "Roman Combat",
+  "description": "Ancient Roman Weaponry & Combat, maybe other stuff.",
+  "version": "alpha-1.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["zudsniper"],
+  "credits": "me!",
+  "logoFile": "/sword-large.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

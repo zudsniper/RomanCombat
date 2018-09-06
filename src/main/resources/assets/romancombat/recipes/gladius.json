@@ -1,0 +1,20 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "  #",
+    " # ",
+    "/  "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "type":"forge:ore_dict",
+      "ore":"ingotSteel"
+    }
+  },
+  "result": {
+    "item":"romancombat:gladius"
+  }
+}
