@@ -7,15 +7,22 @@ import cc.holstr.romac.items.ItemBluntHammer;
 import cc.holstr.romac.items.ItemGladius;
 import cc.holstr.romac.items.ItemOreDict;
 import cc.holstr.romac.items.ItemSteelIngot;
+import cc.holstr.romac.multiblock.block.BlockBlastFurnaceWall;
+import cc.holstr.romac.multiblock.tileentity.IBlastFurnacePart;
+import cc.holstr.romac.multiblock.tileentity.TileEntityBlastFurnaceWall;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Arrays;
 
@@ -25,6 +32,7 @@ public class CommonProxy {
     private static ItemBlock[] blockItems;
 
     public void preInit(FMLPreInitializationEvent e) {
+        GameRegistry.registerTileEntity(TileEntityBlastFurnaceWall.class, new ResourceLocation("BlastFurnaceWall"));
     }
 
     public void init(FMLInitializationEvent e) {
@@ -36,7 +44,7 @@ public class CommonProxy {
 
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
-        registerAllBlocks(event, new BlockRomanCube(), new BlockSteel());
+        registerAllBlocks(event, new BlockRomanCube(), new BlockSteel(), new BlockBlastFurnaceWall());
     }
 
     @SubscribeEvent

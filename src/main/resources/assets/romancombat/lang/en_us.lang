@@ -6,5 +6,7 @@ item.romancombat.blunt_hammer.name=Blunt Hammer
 # block tiles
 tile.romancombat.roman_cube.name=Roman Cube
 tile.romancombat.steel_block.name=Steel Block
+tile.romancombat.blast_furnace_wall.name=Blast Furnace Wall
+
 
 

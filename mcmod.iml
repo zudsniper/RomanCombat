@@ -759,6 +759,5 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="BeefCore" />
   </component>
 </module>

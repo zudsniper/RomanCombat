@@ -6,4 +6,6 @@ public interface IBlock {
 
     ItemBlock getItemBlock();
 
+    void initModel();
+
 }
